@@ -28,4 +28,18 @@ class tarun {
       _ => 'Idhi chala thappu guru',
     };
   }
+
+  void anirudh() {
+    print('choose 1 or 2');
+    int x = int.parse(stdin.readLineSync()!);
+    switch (x) {
+      case 0:
+        print('zero');
+        continue foo;
+      foo:
+      case 1:
+        print('one');
+        break;
+    }
+  }
 }
